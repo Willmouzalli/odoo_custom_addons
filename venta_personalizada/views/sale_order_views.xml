@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_order_form_inherit_mouzalli" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit.mouzalli</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='note']" position="after">
+              <field name="observacion_ingenieria"
+                     placeholder="Detalles técnicos aquí..."
+                     class="text-success fw-bold"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

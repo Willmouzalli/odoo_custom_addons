@@ -1,0 +1,13 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensiones de editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Odoo logs
+*.log
